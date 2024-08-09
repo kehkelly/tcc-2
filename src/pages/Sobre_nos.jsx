@@ -1,5 +1,5 @@
 import { Header } from "../components/Header"
-import Ponto from "../assets/pontos.svg"
+import Pontos from "../assets/pontos.svg"
 
 export function Sobre_nos() {
   return (
