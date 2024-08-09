@@ -13,7 +13,7 @@ export function Header() {
   return (
     <header>
         <div>
-            <nav class={abrirMenu === true? "open":"menu"}>
+            <nav class={abrirMenu === true? "open":" "}>
                 <Menu />
             </nav>
             <button onClick={menu}>
@@ -23,7 +23,7 @@ export function Header() {
 
         <h1>Drink experience</h1>
 
-        <a href="../pages/Home.jsx">
+        <a href="/">
             <img src={ IconHome } alt="ícone de casa" />
         </a>
     </header>

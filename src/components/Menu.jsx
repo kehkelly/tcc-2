@@ -7,7 +7,7 @@ export function Menu() {
 
       <a href="/historia">História</a>
 
-      <a href="/funcionalidade">Funcionalidade</a>
+      <a href="/funcionamento">Funcionamento</a>
 
       <a href="/comprovacao">Comprovação</a>
 

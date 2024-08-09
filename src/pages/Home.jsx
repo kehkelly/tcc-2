@@ -5,9 +5,7 @@ import { Header } from "../components/Header.jsx"
 export function Home() {
   return (
     <body>
-      <header>
-        <Header />
-      </header>
+      <Header />
       <main>
         <h2>Transforme suas bebidas em obras-primas com a Drink Experience!</h2>
 

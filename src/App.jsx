@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home } from "./pages/Home"
 import { Historia } from "./pages/Historia"
-import { Funcionalidade } from "./pages/Funcionalidade"
+import { Funcionamento } from "./pages/Funcionamento"
 import { Comprovacao } from "./pages/Comprovacao"
 import { Componentes } from "./pages/Componentes"
 import { Sobre_nos } from "./pages/Sobre_nos"
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     },
 
     {
-      path: "/funcionalidade",
-      element: <Funcionalidade />
+      path: "/funcionamento",
+      element: <Funcionamento />
     },
 
     {
