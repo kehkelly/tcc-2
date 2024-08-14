@@ -8,27 +8,28 @@ export function Header() {
 
   return (
     <header>
-        
-        <div className="botao">
-          <button>
-              <img src={ IconMenu } alt="ícone de menu de hamburguer" />
-          </button>
-        </div>
+        <section>
+          <div className="botao">
+            <button>
+                <img src={ IconMenu } alt="ícone de menu de hamburguer" />
+            </button>
+          </div>
 
-        <img src={ Title } alt="drink experience" />
+          <h1>Drink experience</h1>
 
-        <div className="navegacao">
-          <a href="/">Home</a>
-          <a href="/historia">História</a>
-          <a href="/funcionamento">Funcionamento</a>
-          <a href="/comprovacao">Comprovação</a>
-          <a href="/componentes">Componentes</a>
-          <a href="/sobre-nos">Sobre nós</a>
-        </div>
+          <div className="navegacao">
+            <a href="/">Home</a>
+            <a href="/historia">História</a>
+            <a href="/funcionamento">Funcionamento</a>
+            <a href="/comprovacao">Comprovação</a>
+            <a href="/componentes">Componentes</a>
+            <a href="/sobre-nos">Sobre nós</a>
+          </div>
 
-        <a href="/">
-            <img src={ IconHome } alt="ícone de casa" />
-        </a>
+          <a href="/" className='home'>
+              <img src={ IconHome } alt="ícone de casa" />
+          </a>
+        </section>
     </header>
   )
 }
