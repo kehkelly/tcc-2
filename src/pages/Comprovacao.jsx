@@ -1,9 +1,10 @@
 import Pontos from "../assets/pontos.svg"
 import {Header} from "../components/Header"
+import { Footer } from "../components/Footer"
 
 export function Comprovacao() {
   return (
-    <body>
+    <>
       <Header />
       <main>
         <h2>Os estudos científicos, realizados na área, indicam que:</h2>
@@ -38,6 +39,7 @@ export function Comprovacao() {
           <a href="https://drive.google.com/file/d/1JZxdpUrxLU-Zev8q36D4loyE272xs90L/view?usp=drive_link">Acessar</a>
         </div>
       </main>
-    </body>
+      <Footer />
+    </>
   )
 }

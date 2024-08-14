@@ -4,7 +4,7 @@ import { Header } from "../components/Header.jsx"
 
 export function Home() {
   return (
-    <body>
+    <>
       <Header />
       <main>
         <h2>Transforme suas bebidas em obras-primas com a Drink Experience!</h2>
@@ -28,6 +28,6 @@ export function Home() {
       <footer>
         <Footer />
       </footer>
-    </body>
+    </>
   )
 }

@@ -1,9 +1,10 @@
 import { Header } from "../components/Header"
+import { Footer } from "../components/Footer"
 import Pontos from "../assets/pontos.svg"
 
 export function Sobre_nos() {
   return (
-    <body>
+    <>
       <Header/>
       <main>
         <h2>Nossa equipe</h2>
@@ -28,6 +29,7 @@ export function Sobre_nos() {
           <a href="">Linkedin</a>
         </div>
       </main>
-    </body>
+      <Footer />
+    </>
   )
 }

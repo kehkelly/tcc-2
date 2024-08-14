@@ -1,27 +1,30 @@
 import React, { useState } from 'react'
-import { Menu } from "../components/Menu.jsx"
 import IconMenu from "../assets/menu.svg"
 import IconHome from "../assets/icon-house.svg"
+import Title from "../assets/title-header.svg"
 
 export function Header() {
     const [abrirMenu, setAbrirMenu] = useState(false)
 
-    function menu(){
-        setAbrirMenu(true)
-    }
-
   return (
     <header>
-        <div>
-            <nav class={abrirMenu === true? "open":" "}>
-                <Menu />
-            </nav>
-            <button onClick={menu}>
-                <img src={ IconMenu } alt="ícone de menu de hamburguer" />
-            </button>
+        
+        <div className="botao">
+          <button>
+              <img src={ IconMenu } alt="ícone de menu de hamburguer" />
+          </button>
         </div>
 
-        <h1>Drink experience</h1>
+        <img src={ Title } alt="drink experience" />
+
+        <div className="navegacao">
+          <a href="/">Home</a>
+          <a href="/historia">História</a>
+          <a href="/funcionamento">Funcionamento</a>
+          <a href="/comprovacao">Comprovação</a>
+          <a href="/componentes">Componentes</a>
+          <a href="/sobre-nos">Sobre nós</a>
+        </div>
 
         <a href="/">
             <img src={ IconHome } alt="ícone de casa" />

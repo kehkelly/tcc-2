@@ -1,9 +1,10 @@
 import { Header } from "../components/Header"
+import { Footer } from "../components/Footer"
 import Pontos from "../assets/pontos.svg"
 
-export function Funcionalmento() {
+export function Funcionamento() {
   return (
-    <body>
+    <>
       <Header/>
       <main>
         <h2>Funcionamento</h2>
@@ -23,6 +24,7 @@ export function Funcionalmento() {
         <img src="" alt="imagem de uma simulação da maquina com o led de finalização ligado" />
 
       </main>
-    </body>
+      <Footer />
+    </>
   )
 }

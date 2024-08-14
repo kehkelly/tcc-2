@@ -5,6 +5,9 @@ import { Funcionamento } from "./pages/Funcionamento"
 import { Comprovacao } from "./pages/Comprovacao"
 import { Componentes } from "./pages/Componentes"
 import { Sobre_nos } from "./pages/Sobre_nos"
+import { ThemeProvider } from "styled-components";
+import { theme } from "./styles/theme";
+import { GlobalStyle } from "./styles/global";
 
 const router = createBrowserRouter([
     {
@@ -41,6 +44,9 @@ const router = createBrowserRouter([
 
 export function App() {
   return (
-    <RouterProvider router={router} />
+    <ThemeProvider theme={theme}>
+      <RouterProvider router={router} />
+      <GlobalStyle/>
+    </ThemeProvider>
   )
 }

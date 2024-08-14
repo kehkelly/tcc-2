@@ -1,9 +1,10 @@
 import { Header } from "../components/Header"
+import { Footer } from "../components/Footer"
 import Pontos from "../assets/pontos.svg"
 
 export function Componentes() {
   return (
-    <body>
+    <>
       <Header />
       <main>
         <h2>Componentes arduíno</h2>
@@ -64,6 +65,7 @@ export function Componentes() {
         </div>
 
       </main>
-    </body>
+      <Footer />
+    </>
   )
 }
