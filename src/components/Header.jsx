@@ -9,13 +9,19 @@ export function Header() {
   return (
     <header>
         <section>
-          <div className="botao">
-            <button>
-                <img src={ IconMenu } alt="ícone de menu de hamburguer" />
-            </button>
-          </div>
+          <div className="headerM">
+            <div className="botao">
+              <button>
+                  <img src={ IconMenu } alt="ícone de menu de hamburguer" />
+              </button>
+            </div>
 
-          <h1>Drink experience</h1>
+            <h1>Drink experience</h1>
+
+            <a href="/" className='home'>
+                <img src={ IconHome } alt="ícone de casa" />
+            </a>
+          </div>
 
           <div className="navegacao">
             <a href="/">Home</a>
@@ -26,9 +32,6 @@ export function Header() {
             <a href="/sobre-nos">Sobre nós</a>
           </div>
 
-          <a href="/" className='home'>
-              <img src={ IconHome } alt="ícone de casa" />
-          </a>
         </section>
     </header>
   )

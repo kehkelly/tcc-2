@@ -11,7 +11,7 @@ export function Sobre_nos() {
       <Header/>
       <main>
         <h2>Nossa equipe</h2>
-        <p>Estudantes, técnico em informática, UNASP:</p>
+        <p>Estudantes, Técnico em informática, UNASP:</p>
         <img src={Pontos} alt="três pontos na vertical" />
         <div className="integrante">
           <img src={Kelly} alt="foto de uma mulher, integrante do grupo" />

@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <footer>
-        <h2>Fale conosco</h2>
+        <h4>Fale conosco</h4>
         <form action="">
           <div>
             <label htmlFor="">Nome</label>
@@ -12,6 +12,8 @@ export function Footer() {
             <input type="email" name="" id="" />
           </div>
         </form>
+        <button>Enviar</button>
+        <h5>Drink experience</h5>
     </footer>
   )
 }

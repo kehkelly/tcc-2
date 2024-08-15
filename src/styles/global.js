@@ -16,6 +16,11 @@ export const GlobalStyle = createGlobalStyle`
 
     main{
         height: calc(100vh - header);
+
+        
+        span {
+                font-weight: 700;
+            }
     }
 
     h1 {
@@ -32,14 +37,29 @@ export const GlobalStyle = createGlobalStyle`
         color: ${props => props.theme.titleColor};
     }
 
+    h5 {
+        font-family: "Alegreya Sans SC", sans-serif;
+        font-weight: 400;
+        color: ${props => props.theme.white};
+    }
+
     @media (max-width: 400px) {
         header {
             height: 4.375rem;
+            overflow: hidden;
             section {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+            }
+
+            div {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
             }
             
             h1 {
@@ -57,20 +77,17 @@ export const GlobalStyle = createGlobalStyle`
             }
 
             .navegacao {
-                visibility: hidden;
-            }
-
-            .home {
-                margin-left: -3rem;
+                display: none;
             }
         }
         
         main {
-            padding-inline: 3rem;
+            margin-inline: 1.5rem;
             padding-block: 3.125rem;
             display: flex;
             flex-direction: column;
             align-items: center;
+            text-align: left;
 
             h2 {
                 font-size: 1.2rem;
@@ -89,6 +106,11 @@ export const GlobalStyle = createGlobalStyle`
                 margin-block: 2.5rem;
             }
 
+            .imagem {
+                width: 14,25rem;
+                height: 10,875rem;
+            }
+
             a {
                 text-decoration: none;
                 font-weight: 700;
@@ -101,10 +123,6 @@ export const GlobalStyle = createGlobalStyle`
                 text-align: center;
             }
 
-            span {
-                font-weight: 700;
-            }
-
             .pontos{
                 margin-top: 1.5rem;
             }
@@ -114,6 +132,23 @@ export const GlobalStyle = createGlobalStyle`
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+            }
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            padding-inline: 1.5rem;
+            background: ${props => props.theme.footerBg};
+            height: 18.0625rem;
+
+            h4 {
+                font-size: 1.0625rem;
+                margin-top: 2rem;
+            }
+
+            h5{
+                font-size: 0.9375rem;
             }
         }
         
