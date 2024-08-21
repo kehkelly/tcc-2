@@ -10,23 +10,14 @@ export const GlobalStyle = createGlobalStyle`
 
     header {
         box-sizing: border-box;
-        background: ${props => props.theme.headerBg};
         display: flex;
     }
 
     main{
-        height: calc(100vh - header);
+        
 
         
-        span {
-                font-weight: 700;
-            }
-    }
-
-    h1 {
-        font-family: "Alegreya Sans SC", sans-serif;
-        font-weight: 400;
-        color: ${props => props.theme.titleColor};
+        
     }
 
     .botao {
@@ -34,13 +25,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-        color: ${props => props.theme.titleColor};
+        
     }
 
     h5 {
-        font-family: "Alegreya Sans SC", sans-serif;
-        font-weight: 400;
-        color: ${props => props.theme.white};
+        
     }
 
     @media (max-width: 400px) {
@@ -64,6 +53,9 @@ export const GlobalStyle = createGlobalStyle`
             
             h1 {
                 font-size: 1.5rem;
+                font-family: "Alegreya Sans SC", sans-serif;
+                font-weight: 400;
+                color: ${props => props.theme.titleColor};
             }
 
             button {
@@ -82,6 +74,7 @@ export const GlobalStyle = createGlobalStyle`
         }
         
         main {
+            height: calc(100vh - header);
             margin-inline: 1.5rem;
             padding-block: 3.125rem;
             display: flex;
@@ -92,6 +85,7 @@ export const GlobalStyle = createGlobalStyle`
             h2 {
                 font-size: 1.2rem;
                 padding-bottom: 1.5rem;
+                color: ${props => props.theme.titleColor};
             }
 
             h3 {
@@ -133,6 +127,10 @@ export const GlobalStyle = createGlobalStyle`
                 flex-direction: column;
                 align-items: center;
             }
+
+            span {
+                font-weight: 700;
+            }
         }
 
         footer {
@@ -149,6 +147,9 @@ export const GlobalStyle = createGlobalStyle`
 
             h5{
                 font-size: 0.9375rem;
+                font-family: "Alegreya Sans SC", sans-serif;
+                font-weight: 400;
+                color: ${props => props.theme.white};
             }
         }
         

@@ -3,5 +3,5 @@ export const theme = {
     buttonColor: "#3312FF",
     titleColor: "#3312FF",
     white: "#FFF",
-    footerBg: "#250F48"
+    footerBg: "#E5E1FF"
 }
