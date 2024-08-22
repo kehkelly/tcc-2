@@ -19,22 +19,22 @@ export function Header() {
               <h1>Drink experience</h1>
               <div className='fechar'>
                 <button>
-                  <img src={IconFechar} alt="icone de x" />
+                  <img src={ IconFechar } alt="icone de x" />
                 </button>
               </div>
             </div>
 
             <div className="navegacao">
-              <Link to="/historia" className='link'>História</Link>
-              <Link to="/funcionamento" className='link'>Funcionamento</Link>
-              <Link to="/comprovacao" className='link'>Comprovação</Link>
-              <Link to="/componentes" className='link'>Componentes</Link>
-              <Link to="/sobre-nos" className='link'>Sobre nós</Link>
+              <Link to="/historia" className="link">História</Link>
+              <Link to="/funcionamento" className="link">Funcionamento</Link>
+              <Link to="/comprovacao" className="link">Comprovação</Link>
+              <Link to="/componentes" className="link">Componentes</Link>
+              <Link to="/sobre-nos" className="link">Sobre nós</Link>
             </div>
           </div>
 
           <Link to="/" className='home'>
-            <img src={IconHome} alt="ícone de casa" />
+            <img src={ IconHome } alt="ícone de casa" />
           </Link>
         </section>
     </header>
