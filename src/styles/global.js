@@ -35,7 +35,6 @@ export const GlobalStyle = createGlobalStyle`
             font-weight: 400;
             color: ${props => props.theme.titleColor};
             padding-inline: 2rem;
-            margin-right: -1.55rem;
         }
 
         button {
