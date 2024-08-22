@@ -35,6 +35,7 @@ export const GlobalStyle = createGlobalStyle`
             font-weight: 400;
             color: ${props => props.theme.titleColor};
             padding-inline: 2rem;
+            margin-right: -1.55rem;
         }
 
         button {
@@ -55,6 +56,7 @@ export const GlobalStyle = createGlobalStyle`
         height: calc(100vh - header);
         margin-inline: 1.5rem;
         padding-block: 3.125rem;
+        padding-inline: 1.25rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -177,7 +179,7 @@ export const GlobalStyle = createGlobalStyle`
             justify-content: center;
             align-items: center;
 
-            .botao {
+            .botao, .close {
                 display: none;
             }
 

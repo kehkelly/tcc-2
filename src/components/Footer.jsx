@@ -9,7 +9,7 @@ export function Footer() {
           </div>
           <div>
             <label htmlFor="">E-mail</label>
-            <input type="email" name="" id="" />
+            <input type="email" name="" id="email" />
           </div>
         </form>
         <div className="bformulario">
