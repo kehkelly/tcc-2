@@ -18,11 +18,11 @@ export function Header() {
           <h1>Drink experience</h1>
 
           <div className="navegacao">
-            <Link to="/historia">História</Link>
-            <Link to="/funcionamento">Funcionamento</Link>
-            <Link to="/comprovacao">Comprovação</Link>
-            <Link to="/componentes">Componentes</Link>
-            <Link to="/sobre-nos">Sobre nós</Link>
+            <Link to="/historia" className='link'>História</Link>
+            <Link to="/funcionamento" className='link'>Funcionamento</Link>
+            <Link to="/comprovacao" className='link'>Comprovação</Link>
+            <Link to="/componentes" className='link'>Componentes</Link>
+            <Link to="/sobre-nos" className='link'>Sobre nós</Link>
           </div>
 
           <Link to="/" className='home'>

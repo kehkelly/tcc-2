@@ -175,6 +175,7 @@ export const GlobalStyle = createGlobalStyle`
             width: 100%;
             display: flex;
             justify-content: center;
+            align-items: center;
 
             .botao {
                 display: none;
@@ -192,6 +193,15 @@ export const GlobalStyle = createGlobalStyle`
                 font-size: 1.125rem;
                 font-weight: 700;
                 gap: 1.5rem;
+            }
+
+            .link {
+                text-decoration: none;
+                color: ${props => props.theme.titleColor};
+            }
+
+            .link:hover {
+                color: ${props => props.theme.hoverBg};
             }
 
             .home {
@@ -336,10 +346,17 @@ export const GlobalStyle = createGlobalStyle`
 
             h5 {
                 padding-bottom: 3rem;
+                font-weight: 500;
             }
 
             button {
                 font-weight: 500;
+            }
+
+            button:hover {
+                background: ${props => props.theme.hoverBg};
+                color: ${props => props.theme.titleColor};
+                font-family: 500;
             }
         }
     }
