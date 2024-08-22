@@ -18,7 +18,6 @@ export function Header() {
           <h1>Drink experience</h1>
 
           <div className="navegacao">
-            <Link to="/">Home</Link>
             <Link to="/historia">História</Link>
             <Link to="/funcionamento">Funcionamento</Link>
             <Link to="/comprovacao">Comprovação</Link>
