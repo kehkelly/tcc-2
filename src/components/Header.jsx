@@ -5,31 +5,20 @@ import { Link } from 'react-router-dom'
 import IconFechar from "../assets/fechar.svg"
 
 export function Header() {
-    const [abrirMenu, setAbrirMenu] = useState(false)
-    const [fecharMenu, setFecharMenu] = useState(false)
-
-    function headerAbrir(){
-      setAbrirMenu(true)
-    }
-
-    function headerFechar() {
-      setFecharMenu(true)
-    }
-
   return (
     <header>
         <section>
             <div className="botao">
-            <button onClick={headerAbrir}>
+            <button>
               <img src={ IconMenu } alt="ícone de menu de hamburguer" />
             </button>
           </div>
 
-          <div className={abrirMenu === true? "open" : " "}>
+          <div >
             <div>
               <h1>Drink experience</h1>
-              <div className={fecharMenu === true? "close" : " "}>
-                <button onClick={headerFechar}>
+              <div className='fechar'>
+                <button>
                   <img src={IconFechar} alt="icone de x" />
                 </button>
               </div>

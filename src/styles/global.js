@@ -47,13 +47,13 @@ export const GlobalStyle = createGlobalStyle`
             visibility: visible;
         }
 
-        .navegacao {
+        .navegacao, .fechar {
             display: none;
         }
     }
         
     main {
-        height: calc(100vh - header);
+        height: calc(100vh - 4.375rem);
         margin-inline: 1.5rem;
         padding-block: 3.125rem;
         padding-inline: 1.25rem;
