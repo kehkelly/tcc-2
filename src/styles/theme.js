@@ -1,5 +1,5 @@
 export const theme = {
-    headerBg: "#E5E1FF",
+    hoverBg: "#7368B9",
     buttonColor: "#3312FF",
     titleColor: "#3312FF",
     white: "#FFF",

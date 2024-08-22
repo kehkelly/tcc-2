@@ -12,8 +12,10 @@ export function Footer() {
             <input type="email" name="" id="" />
           </div>
         </form>
-        <button>Enviar</button>
-        <h5>Drink experience</h5>
+        <div className="bformulario">
+          <button>Enviar</button>
+          <h5>Drink experience</h5>
+        </div>
     </footer>
   )
 }
