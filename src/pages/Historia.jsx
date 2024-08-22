@@ -7,7 +7,7 @@ export function Historia() {
     <>
       <Header />
       <main>
-        <section>
+        <section className="sectionGeral">
           <div>
             <h2>História</h2>
           </div>

@@ -7,7 +7,7 @@ export function Funcionamento() {
     <>
       <Header/>
       <main>
-      <section>
+      <section className="sectionGeral">
         <div>
           <h2>Funcionamento</h2>
           <p>A proposta da coqueteleira é a montagem de seu drink de maneira fácil e rápida através do seu celular.</p>

@@ -7,7 +7,7 @@ export function Comprovacao() {
     <>
       <Header />
       <main>
-        <section>
+        <section className="sectionGeral">
             <div>
               <h2>Os estudos científicos, realizados na área, indicam que:</h2>
               <img src={Pontos} alt="Três pontos na vertical" />

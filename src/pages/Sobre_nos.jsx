@@ -11,9 +11,9 @@ export function Sobre_nos() {
       <Header/>
       <main>
         <h2>Nossa equipe</h2>
-        <p className="p_sobreNos">Estudantes, Técnico em informática, UNASP:</p>
+        <p>Estudantes, Técnico em informática, UNASP:</p>
         <img src={Pontos} alt="três pontos na vertical" />
-        <div className="div_sobreNos">
+        <section className="div_sobreNos">
           <div className="integrante">
             <img src={Kelly} alt="foto de uma mulher, integrante do grupo" />
             <h3>Kelly Dantas</h3>
@@ -32,7 +32,7 @@ export function Sobre_nos() {
             <p>Perita na área comercial, hábil em falar e tratar as pessoas.</p>
             <a href="">Linkedin</a>
           </div>
-        </div>
+        </section>
       </main>
       <Footer />
     </>

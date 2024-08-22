@@ -7,7 +7,7 @@ export function Componentes() {
     <>
       <Header />
       <main>
-        <section>
+        <section className="sectionGeral">
           <div>
             <h2>Componentes arduíno</h2>
             <img src={Pontos} alt="três pontos na vertical" />

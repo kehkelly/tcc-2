@@ -212,7 +212,7 @@ export const GlobalStyle = createGlobalStyle`
                 margin-top: -0.75rem;
             }
 
-            section {
+            .sectionGeral {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
