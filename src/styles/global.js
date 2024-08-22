@@ -53,7 +53,6 @@ export const GlobalStyle = createGlobalStyle`
     }
         
     main {
-        height: calc(100vh - 4.375rem);
         margin-inline: 1.5rem;
         padding-block: 3.125rem;
         padding-inline: 1.25rem;
