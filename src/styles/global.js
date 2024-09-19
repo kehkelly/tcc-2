@@ -9,14 +9,15 @@ export const GlobalStyle = createGlobalStyle`
     }
         
     main {
+        width: 100%;
         margin-inline: 1.5rem;
         padding-block: 3.125rem;
-        padding-inline: 1.25rem;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: left;
+        margin-top: 3rem;
 
         h2 {
             font-size: 1.2rem;
@@ -79,6 +80,7 @@ export const GlobalStyle = createGlobalStyle`
     footer {
         display: flex;
         flex-direction: column;
+        width: 100%;
         padding-inline: 1.5rem;
         background: ${props => props.theme.footerBg};
 

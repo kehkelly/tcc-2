@@ -49,15 +49,16 @@ export const MenuMobile = styled.div`
         div {
             display: flex;
             align-items: center;
+            
         }
 
         h1 {
             color: ${props => props.theme.white};
             text-align: left;
-            padding-left: 2rem;
             font-size: 1.75rem;
             margin-top: 0;
             margin-left: 0;
+            background: none;
         }
 
         .link {
@@ -74,22 +75,30 @@ export const MenuMobile = styled.div`
     @media (min-width:400px){
         header {
             box-sizing: border-box;
-            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
+            padding-top: 1rem;
 
             .botao {
                 display: none;
             }
 
             h1 {
-                font-size: 2.25rem;
-                padding-right: 13rem;
-                margin-left: -2rem;
+                font-size: 2.5rem;
+                color: ${props => props.theme.titleColor};
+                width: 15rem;
+                white-space: nowrap;
+                margin-right: 3rem;
+                margin-left: 24rem;
+                margin-top: -2rem;
+                display: flex;
+                justify-content: center;
+                font-weight: 500;
             }
 
             nav {
+                height: 5.5rem;
                 left: 0;
                 display: flex;
                 border: none;
@@ -97,6 +106,7 @@ export const MenuMobile = styled.div`
                 font-size: 1.125rem;
                 font-weight: 700;
                 gap: 1.5rem;
+                background: none;
                 button {
                     display: none;
                 }
@@ -105,6 +115,10 @@ export const MenuMobile = styled.div`
             .link {
                 text-decoration: none;
                 color: ${props => props.theme.titleColor};
+                white-space: nowrap;
+                border: none;
+                font-weight: 600;
+                margin-top: 0.15rem;
             }
 
             .link:hover {
@@ -113,6 +127,7 @@ export const MenuMobile = styled.div`
 
             .home {
                 margin-left: 2rem;
+                margin-top: -0.25rem;
             }
         }
     }
