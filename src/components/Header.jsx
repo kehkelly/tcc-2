@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import IconHome from "../assets/icon-house.svg";
 import { Link } from 'react-router-dom';
 import { List, X, House } from "@phosphor-icons/react";
 import { MenuMobile } from '../styles/Header.styles';
