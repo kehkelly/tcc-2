@@ -2,7 +2,7 @@ export function Footer() {
   return (
     <footer>
         <h4>Fale conosco</h4>
-        <form action="">
+        <form action="mailto:tcc.3klt@gmail.com" method="post">
           <div>
             <label htmlFor="">Nome</label>
             <input type="text" />
@@ -13,7 +13,7 @@ export function Footer() {
           </div>
         </form>
         <div className="bformulario">
-          <button>Enviar</button>
+          <button >Enviar</button>
           <h5>Drink experience</h5>
         </div>
     </footer>

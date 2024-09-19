@@ -7,49 +7,6 @@ export const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: "Montserrat", sans-serif;
     }
-
-    
-    header {
-        height: 4.375rem;
-        overflow: hidden;
-        padding-block: 1.5rem;
-        display: flex;
-        justify-content: center;
-        section {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-
-        div {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-        }
-            
-        h1 {
-            font-size: 1.5rem;
-            font-family: "Alegreya Sans SC", sans-serif;
-            font-weight: 400;
-            color: ${props => props.theme.titleColor};
-            padding-inline: 2rem;
-        }
-
-        button {
-            background: none;
-            border: none;
-        }
-
-        .botao {
-            visibility: visible;
-        }
-
-        .navegacao, .fechar {
-            display: none;
-        }
-    }
         
     main {
         margin-inline: 1.5rem;
@@ -170,45 +127,6 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     @media (min-width:400px){
-        header {
-            box-sizing: border-box;
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            .botao, .close {
-                display: none;
-            }
-
-            h1 {
-                font-size: 2.125rem;
-                padding-right: 13rem;
-                margin-left: -2rem;
-            }
-
-            .navegacao {
-                display: flex;
-                flex-direction: row;
-                font-size: 1.125rem;
-                font-weight: 700;
-                gap: 1.5rem;
-            }
-
-            .link {
-                text-decoration: none;
-                color: ${props => props.theme.titleColor};
-            }
-
-            .link:hover {
-                color: ${props => props.theme.hoverBg};
-            }
-
-            .home {
-                margin-left: 2rem;
-            }
-        }
-
         main{
             width: 100%;
             h2 {
@@ -218,7 +136,7 @@ export const GlobalStyle = createGlobalStyle`
                 width: 30.56rem;
                 text-align: left;
                 margin-bottom: 2rem;
-                margin-left: -50rem;
+                margin-left: -38rem;
                 margin-top: -0.75rem;
             }
 
@@ -351,6 +269,10 @@ export const GlobalStyle = createGlobalStyle`
 
             button {
                 font-weight: 500;
+            }
+
+            input {
+                width: 22rem;
             }
 
             button:hover {
