@@ -17,10 +17,6 @@ export const MenuMobile = styled.div`
         display: none;
     }
 
-    header {
-        background: ${props => props.theme.white};
-    }
-
     h1 {
         font-size: 1.5rem;
         font-family: "Alegreya Sans SC", sans-serif;
