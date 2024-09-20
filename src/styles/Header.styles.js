@@ -5,7 +5,6 @@ export const MenuMobile = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: row;
-    background: ${props => props.theme.white};
 
     &::before {
         content: "";
@@ -16,6 +15,10 @@ export const MenuMobile = styled.div`
         left: 0;
         background: rgba(0, 0, 0, 0.4);
         display: none;
+    }
+
+    header {
+        background: ${props => props.theme.white};
     }
 
     h1 {
