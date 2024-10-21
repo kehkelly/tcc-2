@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
         
     main {
         width: 100%;
-        margin-inline: 1.5rem;
+        padding-inline: 1.5rem;
         padding-block: 3.125rem;
         display: flex;
         flex-direction: column;
@@ -83,6 +83,7 @@ export const GlobalStyle = createGlobalStyle`
         width: 100%;
         padding-inline: 1.5rem;
         background: ${props => props.theme.footerBg};
+        align-items: center;
 
         form {
             font-weight: 500;
@@ -138,7 +139,7 @@ export const GlobalStyle = createGlobalStyle`
                 width: 30.56rem;
                 text-align: left;
                 margin-bottom: 2rem;
-                margin-left: -38rem;
+                margin-left: -36rem;
                 margin-top: -0.75rem;
             }
 
@@ -254,7 +255,6 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         footer {
-
             form {
                 display: flex;
                 gap: 15rem;

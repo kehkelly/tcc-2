@@ -1,7 +1,6 @@
 import styled from "styled-components"
 export const MenuMobile = styled.div`
     height: 4.375rem;
-    padding-top: 2rem;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -35,7 +34,6 @@ export const MenuMobile = styled.div`
     nav {
         display: flex;
         flex-direction: column;
-        padding-top: 2rem;
         gap: 2rem;
         width: 20rem;
         position: fixed;
@@ -73,13 +71,17 @@ export const MenuMobile = styled.div`
     }
 
     @media (min-width:400px){
+        background: ${props => props.theme.white};
+        position: fixed;
+        top: 0;
+        width: 100%;
+
         header {
             box-sizing: border-box;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-top: 1rem;
-
+           
             .botao {
                 display: none;
             }
@@ -87,25 +89,23 @@ export const MenuMobile = styled.div`
             h1 {
                 font-size: 2.5rem;
                 color: ${props => props.theme.titleColor};
-                width: 15rem;
-                white-space: nowrap;
-                margin-right: 3rem;
-                margin-left: 24rem;
-                margin-top: -2rem;
                 display: flex;
                 justify-content: center;
                 font-weight: 500;
+                padding: 0;
+                margin: 0;
             }
 
             nav {
-                height: 5.5rem;
-                left: 0;
+                height: 100%;
                 display: flex;
                 border: none;
+                position: initial;
                 flex-direction: row;
                 font-size: 1.125rem;
                 font-weight: 700;
-                gap: 1.5rem;
+                gap: 3rem;
+                width: 100%;
                 background: none;
                 button {
                     display: none;
@@ -117,8 +117,11 @@ export const MenuMobile = styled.div`
                 color: ${props => props.theme.titleColor};
                 white-space: nowrap;
                 border: none;
+                display: flex;
+                align-items: center;
                 font-weight: 600;
-                margin-top: 0.15rem;
+                padding: 0;
+                margin: 0;
             }
 
             .link:hover {
@@ -126,8 +129,8 @@ export const MenuMobile = styled.div`
             }
 
             .home {
-                margin-left: 2rem;
-                margin-top: -0.25rem;
+                display: flex;
+                align-items: center;
             }
         }
     }
