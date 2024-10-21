@@ -3,6 +3,7 @@ export const MenuMobile = styled.div`
     height: 4.375rem;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
 
     &::before {
@@ -21,9 +22,14 @@ export const MenuMobile = styled.div`
         font-family: "Alegreya Sans SC", sans-serif;
         font-weight: 400;
         color: ${props => props.theme.titleColor};
-        margin-top: -2.45rem;
         margin-inline: 1rem;
-        padding-left: 2rem;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     button {
@@ -47,7 +53,8 @@ export const MenuMobile = styled.div`
         div {
             display: flex;
             align-items: center;
-            
+            padding-top: 1rem;
+            padding-left: 1.85rem;
         }
 
         h1 {
@@ -67,6 +74,10 @@ export const MenuMobile = styled.div`
             padding-left: 2rem;
             padding-bottom: 1.5rem;
             border-bottom: 2px ${props => props.theme.white} solid;
+        }
+
+        .home {
+            color: white;
         }
     }
 
@@ -124,6 +135,11 @@ export const MenuMobile = styled.div`
                 margin: 0;
             }
 
+            div {
+                padding-left: 0;
+                padding-top: 0;
+            }
+
             .link:hover {
                 color: ${props => props.theme.hoverBg};
             }
@@ -131,6 +147,7 @@ export const MenuMobile = styled.div`
             .home {
                 display: flex;
                 align-items: center;
+                color: ${props => props.theme.titleColor};
             }
         }
     }
