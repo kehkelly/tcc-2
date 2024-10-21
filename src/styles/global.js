@@ -269,12 +269,22 @@ export const GlobalStyle = createGlobalStyle`
                 font-weight: 500;
             }
 
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            label {
+                margin-left: 0.75rem;
+                padding-bottom: 0.5rem;
+            }
+
             button {
                 font-weight: 500;
             }
 
             input {
-                width: 22rem;
+                width: 20rem;
             }
 
             button:hover {
