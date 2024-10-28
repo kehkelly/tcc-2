@@ -87,7 +87,7 @@ export const GlobalStyle = createGlobalStyle`
             font-size: 0.9375rem;
             font-family: "Alegreya Sans SC", sans-serif;
             font-weight: 400;
-            padding-bottom: 3rem;
+            padding-block: 3rem;
         }
 
     }
