@@ -78,6 +78,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     footer {
+        background: ${props => props.theme.footerBg};
 
         h5{
             display: flex;
@@ -217,10 +218,12 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         footer {
+            background: ${props => props.theme.footerBg};
             h5 {
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                padding-top: 1.5rem;
                 padding-bottom: 3rem;
                 font-weight: 500;
             }
