@@ -78,53 +78,15 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     footer {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-inline: 1.5rem;
-        background: ${props => props.theme.footerBg};
-        align-items: center;
-
-        form {
-            font-weight: 500;
-        }
-
-        input {
-            border: none;
-            height: 1.625rem;
-            width: 14.18rem;
-            margin-bottom: 1.5rem;
-            margin-left: 0.75rem;
-        }
-
-        button {
-            width: 4.6875rem;
-            padding-block: 0.5rem;
-            font-weight: 500;
-            background: ${props => props.theme.titleColor};
-            color: ${props => props.theme.white};
-            border: none;
-            border-radius: 25px;
-            margin-block: 2rem;
-        }
-
-        h4 {
-            font-size: 1.062rem;
-            margin-block: 2.25rem;
-        }
 
         h5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 0.9375rem;
             font-family: "Alegreya Sans SC", sans-serif;
             font-weight: 400;
             padding-bottom: 3rem;
-        }
-
-        .bformulario {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
 
     }
@@ -255,42 +217,12 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         footer {
-            form {
-                display: flex;
-                gap: 15rem;
-            }
-
-            h4 {
-                font-size: 1.5rem;
-            }
-
             h5 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 padding-bottom: 3rem;
                 font-weight: 500;
-            }
-
-            div {
-                display: flex;
-                flex-direction: column;
-            }
-
-            label {
-                margin-left: 0.75rem;
-                padding-bottom: 0.5rem;
-            }
-
-            button {
-                font-weight: 500;
-            }
-
-            input {
-                width: 20rem;
-            }
-
-            button:hover {
-                background: ${props => props.theme.hoverBg};
-                color: ${props => props.theme.titleColor};
-                font-family: 500;
             }
         }
     }
