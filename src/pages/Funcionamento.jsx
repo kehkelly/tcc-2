@@ -35,6 +35,9 @@ export function Funcionamento() {
         <img src="/led-1.jpg" alt="imagem de uma simulação da maquina com o led de finalização ligado" className="imagem"/>
         </div>
       </section>
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/6m9r-MeZy_8?si=D6NBgEtwReP7XiWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
       </main>
       <Footer />
     </>

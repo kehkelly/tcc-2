@@ -22,7 +22,7 @@ export function Home() {
 
         <p>Equipada com recursos inteligentes, basta selecionar sua receita favorita no aplicativo móvel complementar e a coqueteleira irá guiá-lo à agitação perfeita.</p>
 
-        <img src="" alt="imagem do produto" className="imagem"/>
+        <img src="src/assets/produto.png" alt="imagem do produto" className="imagem"/>
 
         <p>Além disso, a Drink Experience oferece uma variedade de receitas personalizáveis, permitindo que você experimente e crie suas próprias combinações de sabores. Seja um clássico Manhattan ou uma inovadora mistura de frutas tropicais, as possibilidades são infinitas com esta coqueteleira versátil.</p>
       </main>
