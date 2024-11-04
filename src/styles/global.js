@@ -79,6 +79,7 @@ export const GlobalStyle = createGlobalStyle`
         iframe {
             width: 300px;
             height: 155px;
+            margin-block: 1.5rem;
         }
     }
 
@@ -224,6 +225,7 @@ export const GlobalStyle = createGlobalStyle`
             iframe {
                 width: 900px;
                 height: 655px;
+                padding-block: 3rem;
             }
         }
 
