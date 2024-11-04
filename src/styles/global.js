@@ -75,6 +75,11 @@ export const GlobalStyle = createGlobalStyle`
         span {
             font-weight: 700;
         }
+
+        iframe {
+            width: 300px;
+            height: 155px;
+        }
     }
 
     footer {
@@ -214,6 +219,11 @@ export const GlobalStyle = createGlobalStyle`
                 width: 25rem;
                 display: flex;
                 justify-content: center;
+            }
+
+            iframe {
+                width: 900px;
+                height: 655px;
             }
         }
 
