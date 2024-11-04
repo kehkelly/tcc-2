@@ -32,7 +32,7 @@ export function Header() {
                 <X size = {32} weight="bold" color="#fff"/>
               </button>
             </div>
-            <Link to="/historia" className="link">História</Link>
+            <Link to="/historia" className="link">Jogo</Link>
             <Link to="/funcionamento" className="link">Funcionamento</Link>
             <Link to="/comprovacao" className="link">Comprovação</Link>
             <Link to="/componentes" className="link">Componentes</Link>
